@@ -4,4 +4,5 @@ __pycache__
 agent
 .streamlit/secrets.toml
 .venv
+venv
 .env

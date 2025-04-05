@@ -74,7 +74,7 @@ def main():
     load_dotenv()
     
     # Check if required API keys are set
-    required_keys = ['GROQ_API_KEY', 'SERPER_API_KEY', 'BROWSERLESS_API_KEY']
+    required_keys = ['GEMINI_API_KEY', 'SERPER_API_KEY', 'BROWSERLESS_API_KEY']
     missing_keys = [key for key in required_keys if not os.getenv(key)]
     if missing_keys:
         print(f"Error: Missing required environment variables: {', '.join(missing_keys)}")
